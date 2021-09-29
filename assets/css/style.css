@@ -1,0 +1,74 @@
+:root {
+    --navy: rgb(44, 62, 80);
+    --orange: rgb(231, 76, 60);
+    --lightblue: rgb(236, 240, 241);
+}
+
+body {
+    background-color: var(--lightblue);
+}
+.hero {
+    background-color: var(--navy);
+    color: white;
+}
+
+.main-content {
+    background-color: var(--lightblue);
+    margin: 0;
+}
+
+.card-instruction {
+    padding: 0;
+    background-color:var(--navy);
+}
+
+.card-title {
+    background-color: var(--navy);
+    color: white;
+}
+
+.card-top {
+    padding: 0;
+}
+
+.card-text {
+    background: var(--lightblue);
+    color: var(--navy);
+    padding: 0.5rem 1rem;
+}
+
+.card-title {
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+
+.card-button {
+    background-color: white;
+    color: var(--navy);
+    margin: 1rem;
+}
+
+.list-item {
+    color: var(--navy);
+}
+
+
+.top-row {
+    background-color: var(--orange);
+    color: white;
+}
+
+tbody {
+    background-color: var(--navy);
+    color: white;
+}
+
+th,
+td {
+    border-right: 1px solid var(--lightblue);
+    width: fit-content;
+}
+
+.last-column {
+    border-right: none;
+}
